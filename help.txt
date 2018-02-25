@@ -1,0 +1,12 @@
+Usage: requireise-wasm [opts]
+
+Available options:
+
+  -i/--input PATH
+        The path to the input WASM. Not needed if piping into this tool.
+  -o/--output PATH
+        The path to the output requirable file. Not needed if piping out from this tool.
+  -v/--version
+        Print the version.
+  -h/--help
+        Print this menu.

@@ -1,0 +1,32 @@
+{
+  "name": "requirise-wasm",
+  "version": "0.0.1",
+  "description": "A tool to turn WASM into a requirable file that exports a valid WASM buffer",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thekemkid/requirise-wasm.git"
+  },
+  "keywords": [
+    "WASM",
+    "require",
+    "requirise",
+    "utility",
+    "command-line"
+  ],
+  "author": "Glen Keane <glenkeane.94@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thekemkid/requirise-wasm/issues"
+  },
+  "homepage": "https://github.com/thekemkid/requirise-wasm#readme",
+  "dependencies": {
+    "minimist": "^1.2.0"
+  },
+  "devDependencies": {
+    "standard": "^11.0.0"
+  }
+}
