@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "A tool to turn WASM into a requirable file that exports a valid WASM buffer",
   "main": "index.js",
+  "bin": {
+    "requirise-wasm": "index.js"
+  },
   "scripts": {
     "test": "standard"
   },

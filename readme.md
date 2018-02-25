@@ -18,6 +18,9 @@ This module is best used in a command line context, but it has an exported API y
 requirise-wasm -i ./module.wasm -o ./module.wasm.js
 ```
 
+Using `requirise-wasm -h` will print the following:
+
+```sh
 Usage: requireise-wasm [opts]
 
 Available options:
@@ -30,6 +33,7 @@ Available options:
         Print the version.
   -h/--help
         Print this menu.
+```
 
 ### Programmatic usage
 
